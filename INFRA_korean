@@ -1,0 +1,481 @@
+"lang"
+{
+	"Language" "Korean"
+
+	"Tokens"
+	{
+		"infra_menu_play" "플레이"
+		"infra_menu_continue" "계속"
+		"infra_menu_new_game" "새 게임"
+		"infra_menu_load_game" "불러오기"
+		"infra_menu_options" "옵션"
+		"infra_menu_feedback" "피드백"
+		"infra_menu_quit" "나가기"
+
+		"infra_pause_menu_resume" "게임 재개"
+		"infra_pause_menu_call_boss" "보스에게 연락"
+		"infra_pause_menu_skip_intro" "인트로 건너뛰기"
+		"infra_pause_menu_restart_from_checkpoint" "마지막 저장 로드"
+		"infra_pause_menu_load_game" "불러오기"
+		"infra_pause_menu_save_game" "게임 저장"
+		"infra_pause_menu_quit_to_menu" "메뉴로 나가기"
+		"infra_pause_menu_quit_to_desktop" "종료 후 바탕화면으로"
+
+		"infra_menu_autosave" "최근 자동저장"
+		"infra_menu_previous_autosave" "예전 자동 저장"
+		"infra_menu_empty_autosave" "자동 저장 공간 비어있음"
+		"infra_menu_quicksave" "빠른 저장"
+		"infra_menu_empty_quicksave" "빠른 저장 공간 비어있음"
+		"infra_menu_save_slot" "저장 공간 %d"
+		"infra_menu_save_slot_info_chapter" "%s – 챕터 %d"
+		"infra_menu_save_slot_info_chapter_hours" "%s – Ch. %d, %d h"
+		"infra_menu_save_slot_info_chapter_minutes" "%s – Ch. %d, %d min"
+		"infra_menu_save_slot_info_chapter_hours_minutes" "%s – Ch. %d, %d h %d min"
+		"infra_menu_save_slot_info_hours" "%s – played %d h"
+		"infra_menu_save_slot_info_minutes" "%s – played %d min"
+		"infra_menu_save_slot_info_hours_minutes" "%s – %d h %d min"
+		"infra_menu_empty_save_slot" "빈 저장 공간 %d"
+
+		"infra_options_tab_video" "비디오"
+		"infra_options_tab_audio" "오디오"
+		"infra_options_tab_game" "게임"
+		"infra_options_tab_controls" "조작"
+		"infra_options_video_antialias" "안티에일리어싱"
+		"infra_options_video_multicore" "멀티코어 렌더링"
+		"infra_options_video_shader" "셰이더"
+		"infra_options_video_cpu" "이펙트"
+		"infra_options_video_modeltexture" "모델 & 텍스처"
+		"infra_options_video_pagedpoolmemory" "사용 가능한 메모리"
+		"infra_options_video_filtering" "텍스처 필터링"
+
+		"infra_options_video_borderless" "경계 없는"
+		"infra_options_video_double_buffered" "이중 버퍼링"
+		"infra_options_video_triple_buffered" "삼중 버퍼링"
+		"infra_options_video_2x" "2x"
+		"infra_options_video_4x" "4x"
+		"infra_options_video_8x" "8x"
+		"infra_options_video_16x" "16x"
+		"infra_options_video_4_3" "4:3"
+		"infra_options_video_16_9" "16:9"
+		"infra_options_video_16_10" "16:10"
+
+		"infra_options_audio_master_volume" "전체 볼륨"
+		"infra_options_audio_music_volume" "음악 볼륨"
+		"infra_options_audio_master_volume_short" "전체"
+		"infra_options_audio_music_volume_short" "음악"
+		"infra_options_audio_sound_quality" "음질"
+		"infra_options_audio_sound_quality_short" "품질"
+		"infra_options_audio_no_captions" "자막 없음"
+		"infra_options_audio_subtitles" "자막"
+		"infra_options_audio_closed_captions" "모든 내용 표시"
+		"infra_options_audio_speakers_2_short" "2"
+		"infra_options_audio_speakers_4_short" "4"
+		"infra_options_audio_speakers_5_short" "5.1"
+
+		"infra_options_crosshair" "조준점"
+		"infra_options_use_highlights" "하이라이트 사용"
+		"infra_options_use_selection_outline" "선택 윤곽 사용"
+		"infra_options_use_selection_outline_short" "선택 윤곽"
+		"infra_options_film_grain" "필름 그레인"
+		"infra_options_motion_blur" "모션 블러"
+		"infra_options_field_of_view" "시야각"
+		"infra_options_hints" "튜토리얼 힌트"
+		"infra_options_hints_short" "튜토리얼"
+
+		"infra_options_controls_mouse_sensitivity" "마우스 감도"
+		"infra_options_controls_controller_sensitivity" "컨트롤러 감도"
+		"infra_options_controls_mouse_raw_input" "마우스 원시 입력"
+		"infra_options_controls_mouse_raw_input_short" "원시 입력"
+		"infra_options_controls_mouse_invert" "마우스 반전"
+		"infra_options_controls_mouse_invert_xy" "X + Y"
+		"infra_options_controls_mouse_invert_x" "X"
+		"infra_options_controls_mouse_invert_y" "Y"
+		"infra_options_controls_controller_invert" "컨트롤러 시야이동 반전"
+		"infra_options_controls_controller_invert_short" "컨트롤러 반전"
+		"infra_options_controls_controller_invert_xy" "X + Y"
+		"infra_options_controls_controller_invert_x" "X"
+		"infra_options_controls_controller_invert_y" "Y"
+		"infra_options_controls_reset_defaults" "기본값 재설정"
+		"infra_options_controls_move_forward" "앞으로 이동"
+		"infra_options_controls_move_left" "왼쪽으로 이동"
+		"infra_options_controls_move_backward" "뒤로 이동"
+		"infra_options_controls_move_right" "오른쪽으로 이동"
+		"infra_options_controls_jump" "점프"
+		"infra_options_controls_crouch" "웅크리기"
+		"infra_options_controls_sprint" "스프린트"
+		"infra_options_controls_interact" "상호 작용"
+		"infra_options_controls_equip_camera" "카메라 장비"
+		"infra_options_controls_equip_flashlight" "손전등 장비"
+		"infra_options_controls_reload" "배터리 교체"
+		"infra_options_controls_next_tool" "다음 툴"
+		"infra_options_controls_previous_tool" "이전 툴"
+		"infra_options_controls_use_tool" "툴 사용"
+		"infra_options_controls_context_sensitive" "툴 사용 (대체)"
+		"infra_options_controls_zoom" "줌"
+		"infra_options_controls_quick_save" "빠른 저장"
+		"infra_options_controls_quick_load" "빠른 로드"
+
+		"infra_menu_map_load_failed" "레벨을 로드하지 못했습니다!"
+		"infra_menu_generic_matchmaking_error" "매치메이킹 세션 오류"
+
+		"infra_menu_incompatible_save" "죄송합니다. 저장된 이 게임은 현재 버전의 게임과 더 이상 호환되지 않습니다.
+
+레벨을 다시 시작하시겠습니까? 단계 시작부터 진행 상황이 복원됩니다."
+		"infra_menu_incompatible_save_restart_level" "레벨 재시작"
+		"infra_menu_incompatible_save_cancel" "취소"
+
+		"infra_menu_playtest_disclaimer" "안녕하세요! 인프라를 테스트해 주셔서 감사합니다. 현재는 베타 빌드이며 일부 항목이 누락되었거나 진행 중입니다. 일부 라인이 아직 음성이 완전히 나오지 않아 closed captions 가 켜져 있습니다.
+
+귀하의 일반적인 경험과 발견하실 수 있는 버그에 대해 듣고 싶습니다. 일시 중지 메뉴 또는 기본 메뉴를 통해
+언제든지 피드백을 보낼 수 있습니다."
+
+		"infra_chapter_1_title" "챕터 1"
+		"infra_chapter_1_subtitle" "준비"
+		"infra_chapter_1_description" "사무실에서는 긴 하루였다. 보스는 다음 날 아침으로 회의를 설정했다. 내 소망은 그저 집에 가서 잠을 잘 자고 싶었을 뿐이었는데. 헌데 가장 이상한 것은 집에 운전한 기억도 나지 않는다는 것이다."
+
+		"infra_chapter_2_title" "챕터 2"
+		"infra_chapter_2_subtitle" "오늘도 똑같은 업무"
+		"infra_chapter_2_description" "보스는 해머 밸리 댐과 그 주변을 조사하라고 내게 지시했다. 평상시와 같은 일이 될 것이다."
+
+		"infra_chapter_3_title" "챕터 3"
+		"infra_chapter_3_subtitle" "잊혀진 세계"
+		"infra_chapter_3_description" "해머 밸리 댐을 조사한 뒤 버그만 터널로 들어갔다. 그곳은 도시가 물을 얻는 터널 중 하나이다."
+
+		"infra_chapter_4_title" "챕터 4"
+		"infra_chapter_4_subtitle" "몰락한 중공업"
+		"infra_chapter_4_description_furnace_beginning" "오래된 제철소 근처에 도착할 때. 나는 이미 이 터널들을 벗어나고 싶어 몸이 근질거렸다."
+		"infra_chapter_4_description_furnace_inside" "나는 구 제철소로 들어갔다. 이곳은 정확히 내가 갈 길은 아니었지만, 다음 목적지로 가려면 이곳을 지나야 했다."
+
+		"infra_chapter_5_title" "챕터 5"
+		"infra_chapter_5_subtitle" "담수"
+		"infra_chapter_5_description_watertreatment" "보스는 버그만 터널 붕괴가 도시 전역에 문제를 일으키고 있다는 것을 내게 알려 주었다. 제철소를 떠나 나는 정수장 쪽으로 향하기 시작했다. 어쩌면 현 상황에 대한 통찰력을 제공할 수 있을지도 모른다."
+		"infra_chapter_5_description_watertreatment_no_phone_call" "제철소를 뒤로 하고 나는 앞으로 나아갔다."
+		"infra_chapter_5_description_sewer" "정수장에서 걱정스러운 소식이 나왔다. 두 협곡 댐이 위험에 처할 수도 있다는 상태라 말이다. 보스는 내게 사무실로 돌아가라고 했다. 보스에 의하면 내게서 조금 떨어진 곳에 지하철역이 있다고 말했다. 그것은 내게 있어 최선의 선택일 것이다."
+		"infra_chapter_5_description_sewer_no_phone_call" "정수장을 뒤로 하고 도심으로 이동하기 시작했다."
+
+		"infra_chapter_6_title" "챕터 6"
+		"infra_chapter_6_subtitle" "대중 교통"
+		"infra_chapter_6_description_sewer" "숨을 쉴 수가 없다. 눈이 감긴 느낌이 들지만, 눈을 뜰 힘이 부족한 것 같다."
+		"infra_chapter_6_description_metro" "죽을 고비를 겪은 후, 갇힌 하수구에서 출구를 찾아낸다. 내가 사무실로 돌아갈 수는 있을까?"
+		"infra_chapter_6_description_metroride" ""
+		"infra_chapter_6_description_waterplant" "지하철 터널이 내 밑에 무너져 나를 다시 정비 터널로 밀어 넣었다. 오늘은 긴 하루가 될 것 같다."
+		"infra_chapter_6_description_central" "나는 중앙 지하철역으로 갔지만, 놀랍게도 이 역도 역시 폐쇄되어 있었다. 여기서 빠져나갈 다른 방법을 찾아야 했다."
+
+		"infra_chapter_7_title" "챕터 7"
+		"infra_chapter_7_subtitle" "초과 근무"
+		"infra_chapter_7_description_servicetunnel" "지하철 중앙역 아래 서비스 터널 중 하나로 들어갔다. 길고 긴 길이 될 예감이 들었다."
+
+		"infra_chapter_8_title" "챕터 8"
+		"infra_chapter_8_subtitle" "늦어버린 회의"
+
+		"infra_chapter_9_title" "챕터 9"
+		"infra_chapter_9_subtitle" "도시를 구하기 위해"
+
+		"infra_chapter_10_title" "챕터 10"
+		"infra_chapter_10_subtitle" "구원"
+
+		"infra_chapter_11_title" "챕터 11"
+		"infra_chapter_11_subtitle" "에필로그"
+
+		"infra_hint_intro_change_slide" "슬라이드 교체"
+		"infra_hint_interact" "상호 작용"
+		"infra_hint_use_keycard_reader" "왼쪽에 있는 키카드 판독기를 사용하여 이 문을 열 수 있습니다."
+		"infra_hint_reload_holster_other" "카메라 배터리 교환 시 손전등은 넣어 주세요. 반대도 마찬가지입니다."
+		"infra_hint_reload_holster_flashlight" "카메라 배터리 교환 시 손전등은 넣어 주세요."
+		"infra_hint_reload_camera" "카메라 배터리 교체"
+		"infra_hint_reload_flashlight" "손전등 배터리 교체"
+		"infra_hint_camera_successful_picture" "사진 촬영에 성공하면, 이 사운드가 울립니다."
+		"infra_hint_camera_focus_indicator" "사진 촬영 가능한 대상을 향했을 때, 카메라 스크린의 포커스 인디케이터가 변화합니다."
+		"infra_hint_equip_camera" "카메라 장비"
+		"infra_hint_equip_flashlight" "손전등 장비"
+		"infra_hint_take_photo" "사진 촬영"
+		"infra_hint_climb" "장애물 기어 오르기"
+		"infra_hint_crouch" "웅크리기"
+		"infra_hint_unzoom" "줌 해제"
+		"infra_hint_zoom" "줌"
+		"infra_hint_jump" "점프"
+		"infra_hint_throw_held_object" "던지기"
+		"infra_hint_crane_horizontal_movement" "이동"
+		"infra_hint_crane_vertical_movement" "올리기/아래로"
+
+		"infra_key_not_bound" "[NOT BOUND]"
+
+		// computer
+
+		"infra_computer_exit" "나가기"
+
+		// email computer
+
+		"infra_treatment_email_date" "8월 15일"
+
+		"infra_treatment_email_001_subject" "50% 할인!"
+
+		"infra_treatment_email_002_subject" "파인 펠 취수장 놈들!"
+		"infra_treatment_email_002_content_1" "파인 펠 취수장에 두 뺀질이가 아직 제 일을 안 했다. 딴 놈은 뭐하는지 전혀 모르겠는데, 마르코란 놈은 하루 종일 무슨 얼빵한 게임이나 하고 있어. 빨간색 파이프에 수질 오염이 심각해서 해결해야 하는데 말이야. 오염 원인이 뭔지는 모르겠지만, 정말이지 이놈들이 서로 힘을 합쳐서 이 문제를 빨리 해결해야 한다고. 문제가 해결될 때까지는 그 구역으로 보낼 물은 다른 펌프장에서 공급해야 해."
+		"infra_treatment_email_002_content_2" "난 그 둘이 결국 파인 펠 취수장 문제를 해결할 걸 알고 있었어! 마르코랑... 제기랄, 다른 친구는 이름이 아직 기억 안 나네... 아무튼, 두 친구가 수질 오염을 완전히 해결했으니 이제 펌프장을 다시 최대한 돌릴 수 있겠어. 두 훌륭한 직원이 팀에 같이 있다는 게 정말로 자랑스러워."
+		"infra_treatment_email_002_content_3" "파인 펠 취수장에서 무슨 일이 생긴 거야? 지금 물 퍼올리는 게 완전히 멈췄잖아! 항의는 계속 들어오는데 마르코는 내 전화에 답이 없어. 대체 그 자식들 거기서 뭐하고 있는 거야?! 그놈들이 뭐하는지 보러 사람을 몇 명 보내야 했어. 거기 두 놈은 존나 열심히 일하고 있어야 할 거야, 아니면 모가지를 따버릴 테니까!"
+		"infra_treatment_email_002_content_4" "파인 펠 취수장에서 뭔가 잘못됐어. 오염된 물을 퍼올리는 것 같아! 거기서 무슨 일이 있는지 모르겠는데, 이건 재앙이 따로 없어! 물에서 이상한 맛이 난다고 항의가 빗발치고, 실제로 아픈 사람도 나오고 있다고. 상황을 알아보라고 우리 쪽 사람을 두 명 더 보냈어."
+
+		"infra_treatment_email_003_subject" "새 침사 분립기 02가 망가졌다!"
+		"infra_treatment_email_003_content" "새 침사 분립기 02는 망가져 있고, 보조 정화기는 언제 정비했는지도 모르겠군. 이 물은 충분히 깨끗하지 않아! 최근에 연구원들이 수질 오염도를 검사하긴 했어? 몇 주 동안 그 양반들에게 직접 듣지는 못했는데, 지금 검사하면 결과가 허용치를 훨씬 밑돌걸. 왜 아무도 일을 더 이상 안 하는 거지?!"
+
+		"infra_treatment_email_004_subject" "빌어먹을 연구실 놈들이 통제 불능이야"
+		"infra_treatment_email_004_content" "맥주, 맥주, 그리고 또 맥주! 연구실에 있는 것들 머릿속에 들어찬 거라곤 그것뿐이야. 진짜, 이놈들이 술 깨어 있었던 때가 언젠지 기억도 안 나. 오스모 올루트는 사방에 있어: 광고판, 열기구, 스팸 메일, 엿같은 옆집 양조장은 말할 것도 없고. 이젠 그것들이 우리 입을 막는답시고 공짜 맥주까지 뿌리고 있어! 나 더 이상 못 참겠으니, 진짜로 무슨 조치를 취해야 해."
+
+		// email computer waterplant
+
+		"infra_waterplant_email_001_subject" "핏히스 정수장"
+
+		"infra_waterplant_email_001_content_1" "오늘 내내 전화를 걸었어. 핏히스 정수장에서 이상한 일에 관해 말해줄 게 있거든. 다들 없는 동안에 어떤 남자가 와서 대부분을 고치고 갔더라! 누군지는 모르겠지만, 여기서 일해주면 얼마나 좋을까."
+
+		"infra_waterplant_email_001_content_2" "내 전화를 받지 않아서, 대신 이 글을 가능한 빨리 읽길 바라! 핏히스 정수장에 왔으면 해. 방금 거기를 다녀왔는데 누가 허락 없이 다녀간 것 같아. 그 사람이 설정 몇 개를 엉망으로 해놓았던데 이게 좋은 건지는 모르겠어. 내 열쇠도 없어졌더라. 분명 그 사람이 훔쳤을 거야! 열쇠 들고 최대한 빨리 이쪽으로 와. 그리고 이번엔 맞는 열쇠 가져와야 해!"
+
+		"infra_waterplant_email_002_subject" "버그만 지하 수도 문제"
+
+		"infra_waterplant_email_002_content" "버그만 지하 수도의 물 흐름이 거의 멈춘 것 같아. 예비 저수장에서 물을 끌어와야 할 것 같은데, 그러려면 설정을 변경해야 해. 지하 수도에서 무슨 문제가 있는지는 모르겠는데, 우리가 처리해야 할걸. 이젠 버그만 지하 수도에서 일하는 사람이 없으니까. 로빈이 거기서 일했을 때 기억나?그 친구도 그립고, 그때 이것저것 망가뜨리고 쏘다니던 때도 좀 그립네. 정말 안전하다고는 못 해도, 그래도 그땐 뭐라도 했었지. 지금은 너무 따분해. 뭐 어쨌든, 핏히스 정수장이랑 연락이 전혀 안 돼. 또 거기서 술판 난 건 아니겠지? 지하 수도에서 무슨 상황이 났는지 그쪽에서 봐야 할 텐데."
+
+		"infra_waterplant_email_004_subject" "응집지"
+
+		"infra_waterplant_email_004_content" "보스는 무슨 생각인지 모르겠는데, 우리 조그만 물 문제를 숨기려는 건 좋은 생각 같지 않아. 그 널찍한 응집지에 문제가 터졌고 우리 시스템이 말썽인데도, 보스는 원래대로 해놓으라고 소리만 지르고 있어. 여기서 보스를 본 것도 오래전 일이야. 요새 보스는 이메일만 보내고 있어."
+
+		// tunnel2 computer
+
+		"infra_tunnel2_red_pipe_1" "레드 파이프"
+		"infra_tunnel2_red_pipe_2" "레드 파이프 2"
+		"infra_tunnel2_blue_pipe_1" "블루 파이프"
+		"infra_tunnel2_blue_pipe_2" "블루 파이프 2"
+		"infra_tunnel2_chlorination" "염소소독"
+		"infra_tunnel2_Pool1" "Pool 1"
+		"infra_tunnel2_Pool2" "Pool 2"
+		"infra_tunnel2_Pool3" "Pool 3"
+		"infra_tunnel2_Pool4" "Pool 4"
+		"infra_tunnel2_fresh_water_pool" "Fresh water pool"
+		"infra_tunnel2_line_1" "LINE 1"
+		"infra_tunnel2_line_2" "LINE 2"
+
+		"infra_tunnel2_button" "열림/닫힘"
+
+		// ATM
+
+		"infra_ATM_welcome" "환영합니다, 카드를 삽입해 주세요"
+		"infra_ATM_pin" "비밀번호를 입력해주세요"
+		"infra_ATM_select" "인출할 금액을 선택합니다"
+		"infra_ATM_cancel" "취소"
+		"infra_ATM_take_card" "카드를 가져가십시오"
+		"infra_ATM_take_money" "현금을 받아 주십시오"
+		"infra_ATM_incorrect" "잘못된 비밀번호입니다"
+		"infra_ATM_correct" "비밀번호를 인증했습니다"
+		"infra_ATM_daily" "일일 인출 한도에 도달하거나 계좌가 비어 있음"
+
+		// grit classifier computer
+
+		"infra_classifier_help" "도움말"
+		"infra_classifier_general" "일반"
+		"infra_classifier_interface" "인터페이스"
+		"infra_classifier_controls" "컨트롤"
+		"infra_classifier_troubleshooting" "트러블슈팅"
+		"infra_classifier_back" "뒤로"
+
+		"infra_classifier_reinstall" "재설치"
+		"infra_classifier_repair" "수리"
+		"infra_classifier_uninstall" "제거"
+		"infra_classifier_cancel" "취소"
+
+		"infra_classifier_repaired" "시스템 복구가 완료되었습니다!"
+		"infra_classifier_ok" "OK"
+
+		// isle3 bridge computer
+
+		"infra_isle3_open_bridge" "다리 열림"
+		"infra_isle3_stop_bridge" "다리 멈춤"
+		"infra_isle3_close_bridge" "다리 닫힘"
+		"infra_isle3_manual_auto" "수동/자동"
+		"infra_isle3_lights_bypass" "Lights bypass"
+		"infra_isle3_bridge_gates" "Bridge gates"
+		"infra_isle3_dont_press" "누르지 마시오"
+		"infra_isle3_remote_local" "원격/로컬"
+		"infra_isle3_siren" "Siren"
+		"infra_isle3_flood_lights" "Flood lights"
+		"infra_isle3_reset_system" "시스템 초기화"
+
+		"infra_isle3_denied" "액세스가 거부됨!"
+		"infra_isle3_error" "오류!"
+	
+		"infra_isle3_manual" "수동"
+		"infra_isle3_auto" "자동"
+		"infra_isle3_local" "로컬"
+		"infra_isle3_remote" "원격"
+		"infra_isle3_open" "열림"
+		"infra_isle3_closed" "닫힘"
+		"infra_isle3_on" "켜짐"
+		"infra_isle3_off" "꺼짐"
+
+		"infra_isle3_drawbridge_closed" "도개교: 닫힘"
+		"infra_isle3_drawbridge_open" "도개교: 열림"
+
+		"infra_isle3_red2" "레드 2"
+		"infra_isle3_green2" "그린 2"
+		"infra_isle3_green1" "그린 1"
+		"infra_isle3_blue" "블루"
+		"infra_isle3_cancel" "취소"
+
+		// metro computer
+
+		"infra_metro_alarms" "경보"
+		"infra_metro_doors" "문"
+		"infra_metro_sensors" "센서"
+		"infra_metro_logfile" "로그 파일"
+		"infra_metro_poison" "독"
+
+		// central waterplant computer
+
+		"infra_waterplant_warning" "경고:"
+		"infra_waterplant_contaminated" "오염된 물!"
+		"infra_waterplant_flow_stopped" "물 흐름 멈춤!"
+		"infra_waterplant_low_ph" "낮은 Ph!"		
+		
+
+		// office blackout tv 
+		// (beware of the length of blackout_ticker)
+
+		"infra_blackout_header1" "비상 사태 긴급 대책"
+		"infra_blackout_header2" "스탈버그"
+		"infra_blackout_blinking1" "긴급 홍수 경보"
+		"infra_blackout_blinking2" "당지역에 발령"
+		"infra_blackout_blinking3" "피난을 강력히 권고"
+
+		"infra_blackout_ticker" "홍수 발생              모든 지하철 운행  중지              월터스퀘어의 폭발              스탈버그 전역의 정전"
+
+		// ending tv
+		// (same on this ticker's lenght too)
+
+		"infra_endingtv_header" "방송 종료"
+		"infra_endingtv_body1" "오늘 방송은 여기까지입니다.
+내일 아침 다시 뵙도록 하겠습니다."
+		"infra_endingtv_body2" "06.30    좋은 아침 스탈버그"
+		"infra_endingtv_body3" "07.00    아침 뉴스"
+		"infra_endingtv_body4" "07.10    램지 볼튼과 함께 요리하기"
+		"infra_endingtv_body5" "08.00    쇼핑 TV"
+		
+		"infra_endingtv_ticker" "두 협곡 댐의 재건설 지연                      수리 중인 버그만 터널                      OSMO OLUT 타워를 사다"
+		
+
+		//PART3
+
+		// email computer endings
+
+		"infra_ending_email_date" "1월 4일"
+
+		"infra_ending_email_001_subject" "나야, 롭!"
+
+		"infra_ending_email_001_content_1" "안녕 마크!
+
+나야, 롭! 내 선물은 잘 받았지? 정말 대단한 것들이야, 그렇지? 로빈과 같이 만든거야! 로빈은 물건을 잘 만들어, 대개는 뭔가 문제가 있어 보이지만. 그래서 지금 난 로빈을 돕고 있어! 도대체 왜 내가 평생 동안 이런 경험을 쌓지 않았던거지?? 로빈과 함께 일하는 게 너무 좋고 나는 로빈이 이제 어떤 것도 망가드리지 않도록 지켜볼 수 있어! 둘이서 회사를 차릴 예정이야. 이름은 아직 정해지진 않았지만. 로-빈 건설 & 수리점 이라든지 아님 다른거. 어찌됐든, 우린 네게 많은 빚을 졌어! 고치고 싶은 물건이 있다면 언제든지 와, 네겐 공짜니깐! 곧 우리가 다시 만나기를 기원할게!
+
+롭"
+
+		"infra_ending_email_001_content_2" "안녕 마크,
+
+나, 롭이야. 로빈에게 무슨 일이 일어났는지 들었니? 작은 사고였어. 아니, 큰 사고라 해야겠지. 로빈이 큰일이 나 걱정이 돼. 두 사람을 거의 죽일 뻔 했어. 정말 믿기지 않아. 로빈이 교도소행이라니 큰일이 아닐 수 없어. 난 앞으로 어떻게 해야 할지 잘 모르겠어. 혹시 우리에게 도움이 될 사람을 알고있어? Samuel Godman 변호사를 고용하려고 했는데, 나한테는 너무 비쌌어! 우릴 도와 줘. 어쩌면 변호사를 고용해야 할까. 빚은 꼭 갚도록 할게. 정말이야, 약속해!
+
+롭"
+
+		"infra_ending_email_002_subject" "그냥 네게 하고 싶은 말들"
+
+		"infra_ending_email_002_content_1" "사장님이 그러는데 내가 아밋과 나눈 얘기를 들었다고 하더군. 너에 대해 한 말은 미안해. 네가 만약 그 독주를 마시는 걸 멈춘다면, 더 나은 사람이 될 수 있어. 그딴건 그만 마시고 제대로 치료해! 훨씬 나을거야! 모두 너를 걱정하고 있어. 스티브가 다음 주 토요일 날 너를 만나고 싶대 (7월 1일). 오스모 힐 바에서 스티브를 만나 봐 너의 문제를 해결 할 수 있을거야. 스티브가 왜 거기에서 만나자고 하는건지는 모르겠지만. 나라면 알코올 중독 치료 센터에서 널 만났을 텐데, 너를 위해서라도 가서 그를 만나고 와 줘!"
+
+		"infra_ending_email_002_content_2" "안녕! 같이 의논해줘서 고맙다는 말을 전하고 싶었어. 그때 무슨 일이 있었는지 아직도 좀 헷갈리네. 갑자기 그렇게 떠나서 미안해. 같이 얘기한 모든 걸 처리할 시간이 좀 필요했거든. 내게 큰 문제가 있다는 걸 네가 깨닫게 해 줬어. 그걸 가지고 다른 사람들이랑 얘기해봐야겠어.
+
+추신: 난 아직도 네가 그 독한 맥주를 마시는 게 싫어! 그만 둬!!"
+
+		"infra_ending_email_002_content_3" "마크,
+
+네가 지금 핀란드에 산다고 들었어. 모든 게 예상대로 되지 않았다는 건 알지만, 적어도 넌 노력했잖아. 너한테 그런 말을 한 걸 사과하고 싶어. 어쨌든 우린 스티브가 말한 이 난리통을 조사하기 시작했어. 길고 지루한 프로젝트가 될 것 같아. 너도 같이 여기 동참해서 도와주면 좋겠네."
+
+		"infra_ending_email_002b_subject" "맥주 한잔하자, 친구야! 맥주!"
+
+		"infra_ending_email_002_content_4" "마크,
+
+한동안 얘기를 못 했네. 그래, 다음 주 토요일에 만났으면 해. 우리 오스모 힐 바에서 같이 차가운 오스모 올루트나 마시자. 내가 쏠게! 네 근황을 정말 듣고 싶어. 우린 네 걱정 많이 하고 있어. 네가 지금 어디 사는지 들었거든. 만나서 좋았던 옛날 얘기나 하면 참 좋을 것 같아.
+
+그 폭주족들 기억해? 악마의 천사 놈들 말이야! 어쩌면 우리가 그놈들을 또 만나러 가야 할 수도 있어! 헤, 그놈들 사진 한 방 찍고 싶었는데, 거절하고는 화를 조금 냈었잖아. 너 없었음 큰일 날 뻔했어! 젠장, 그때 너무 무서웠다고! 토요일에 오스모 힐 바로 와서 같이 더 얘기하자.
+
+스티브"
+		"infra_ending_email_002_content_5" "마크,
+
+젠장, 어젯밤 오스모 힐 바에서 장난 아니었네! 그런 일이 있을 줄은 예상 못 했어! 그 망할 악마의 천사 폭주족놈들도 그럴 줄은 몰랐겠지! 괜찮은 사진도 몇 장 찍었어! 나중에 그놈들한테 보여줄려고. 가장 마음에 드는 건 그놈들 중 한 놈이 네 얼굴을 갈기는 거야! 헤, 어쨌든 다음 주 토요일에 또 보면 어때? 너한테 해 주고 싶은 말이 있어!
+
+스티브"
+		"infra_ending_email_002_content_6" "마크!
+
+네 소식 못 들은지 꽤 됐네. 언제 한번 놀러오면 어떨까 생각 중이야. 난 핀란드에 가 본 적이 없거든. 동네 술집에서 오스모 올루트나 마시는 것도 좋을 거야! 스탈버그는 지금 난리통이고 넌 와야 해. 할 일이 엄청 많아서 도와준다면 정말 고마울 거야! 전부 조사하는 데 시간이 제법 걸리겠지만 사실 꽤 재밌거든! "
+
+		"infra_ending_email_003_subject" "마크쿠에게 발신"
+
+		"infra_ending_email_003_content_decrypted" "해독: 레이븐 메신저의 확실한 서명 <raven.messenger@stalburg.ts>"
+		"infra_ending_email_003_content_1" "안녕하십니까 마르쿠,
+
+저희는 귀하를 계속 지켜보고 있었습니다. 귀하께서 S.N.W. 벙커에 있었다는 걸 아는데 왜 아무 얘기도 듣지 못했는지 궁금하군요. 귀하가 가진 정보는 전부 어떻게 했습니까?가진 걸 전부 보내시기 바라며, 그렇지 않을 경우 책임을 지셔야 할 겁니다. 곧 지시를 받으실 겁니다."
+
+		"infra_ending_email_003_content_2" "안녕하십니까 마르쿠,
+
+이 음모를 밝혀주셔서 감사합니다. 걱정 마십시오, 귀하께서 한 일은 아무에게도 발설하지 않겠습니다. 이 모든 정보를 모아주시니 흡족합니다만 아직 부족한 부분이 있군요. S.N.W.와 관련해 남은 정보가 있다면 저희에게 보내주시기 바랍니다."
+
+		"infra_ending_email_003_content_3" "안녕하십니까 마르쿠,
+
+이 모든 음모를 폭로해 주셔서 저희는 정말로 기쁩니다. 걱정 마십시오, 귀하께서 한 일은 아무에게도 발설하지 않겠습니다. 일거리가 필요하시면 연락주십시오. S.N.W와 S.M.V 프로젝트와 관련된 정보를 찾기 위해서라면 기꺼이 귀하를 고용하겠습니다. 귀하께서도 버섯 병, 혹은 무엇이라고 부르시던지 간에 이미 그것을 아시리라고 생각합니다만, 아직도 그것이 개발되고 있다는 사실은 모르실 겁니다. 몇몇 사람이 그것을 가지고 있다는 보고도 있었으며, 저희는 그것을 막으려 하고 있습니다.
+
+저희가 누군지 궁금하시리라 생각합니다. 안타깝게도 저희가 위험해질 수 있기에 알려드릴 수는 없습니다. 일거리를 원하시면 저희에게 연락하는 것을 잊지 마십시오."
+
+
+		"infra_ending_email_004_subject" 그냥 얘기하고 싶었습니다"
+
+		"infra_ending_email_004_content_1" "마크,
+
+계속 연락하려고 했습니다. 그동안 힘들었다는 거 알아요. 모든 게 예상대로 되지 않았다는 건 알지만, 당신이 그 반응로를 고쳤잖아요. 당신이 이 도시를 구했다고요, 마크. 그건 자랑스럽게 생각해야 해요. 다음에 전화드리면 꼭 받아주세요. 모든 게 괜찮은지 알고 싶을 뿐입니다.
+
+폴 라우언스
+스탈버그 지역 운영 책임자
+내셔널 컨설팅 그룹"
+
+		"infra_ending_email_004_content_3" "마크,
+
+당신이 사무실에 복귀하면 중요한 얘기를 하고 싶습니다. 할 말이 있어요. 당신보고 사진 찍으라던 그 서류들과 관련이 있습니다. 그 일이 계속 신경이 쓰여서요. 어쨌든, 새로 일이 들어왔습니다. 나중에 전화할 테니, 그때 더 얘기하죠.
+
+폴 라우언스
+스탈버그 지역 운영 책임자
+내셔널 컨설팅 그룹"
+
+		"infra_ending_email_004_content_4" "마크,
+
+그 서류들과 관련해서 제가 거래한 내용을 말해주지 못해 미안합니다. 제가 왜 그랬는지 부디 이해해주길 바라요. 당신이 사무실로 복귀하면 더 얘기를 나누도록 합시다. 다른 사람들 모두랑 얘기했는데, 다들 괜찮은 모양이에요. 적어도 제 자리는 지킬 수 있겠어요.
+
+그 S.N.W 서류가 발표됐을 때 무슨 일이 날 줄 알았는데, 아무래도 비밀로 하고 싶은 모양입니다. 아직 조용하긴 하지만, 그래도 전 조심해야 해요.
+
+폴 라우언스
+스탈버그 지역 운영 책임자
+내셔널 컨설팅 그룹"
+
+		"infra_ending_email_004_content_5" "마크,
+
+계속 연락하려고 했습니다. 핀란드에서 괜찮길 바랍니다. 들었을지도 모르겠지만 상당히 큰 프로젝트가 들어왔어요. 그 사태를 조사하는 중인데 도움이 필요해요. 언제든지 여기 와서 도와주면 됩니다.
+
+당신 몸 상태도 궁금하군요. 방사능에 노출됐으니 지금은 어떤 상태인지 정말 알고 싶습니다. 너무 나쁘진 않으면 좋겠네요. 어쨌든 나중에 전화하겠습니다. 이번에는 받아주세요.
+
+폴 라우언스
+스탈버그 지역 운영 책임자
+내셔널 컨설팅 그룹"
+
+		"infra_ending_email_004_content_6" "마크,
+
+계속 연락하려고 했습니다. 핀란드에서 괜찮길 바랍니다. 들었을지도 모르겠지만 상당히 큰 프로젝트가 들어왔어요. 그 사태를 조사하는 중인데 도움이 필요해요. 언제든지 여기 와서 도와주면 됩니다.
+
+그 서류들과 관련해서 제가 거래한 내용을 말해주지 못해 미안합니다. 제가 왜 그랬는지 부디 이해해주길 바라요. 언젠가 당신이 스탈버그로 복귀하면 더 얘기를 나누도록 합시다. 다른 사람들 모두랑 얘기했는데, 다들 괜찮은 모양이에요. 적어도 제 자리는 지킬 수 있겠어요.
+
+당신 몸 상태도 궁금하군요. 방사능에 노출됐으니 지금은 어떤 상태인지 정말 알고 싶습니다. 너무 나쁘진 않으면 좋겠네요. 어쨌든 나중에 전화하겠습니다. 이번에는 받아주세요.
+
+폴 라우언스
+스탈버그 지역 운영 책임자
+내셔널 컨설팅 그룹"
+	}
+}
